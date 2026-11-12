@@ -1,0 +1,8 @@
+# Pin to the exact versions you train with:  pip freeze | grep -iE "torch|transformers|datasets|rouge|numpy|matplotlib|gradio"
+torch>=2.2
+transformers>=4.45
+datasets>=2.19
+rouge-score==0.1.2
+numpy
+matplotlib
+gradio>=4.44,<6
