@@ -15,7 +15,9 @@ import sys
 import time
 
 import numpy as np
-import torch
+
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")   # less fragmentation on the T4
+import torch  # noqa: E402
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, "starter"))
@@ -181,11 +183,22 @@ def causal_forward(model, input_ids, attention_mask, start=1):
     return model.lm_head(hidden), hidden
 
 
-def token_logprobs(model, input_ids, attention_mask, start=1):
+def token_logprobs(model, input_ids, attention_mask, start=1, select=None):
     """log π(x_t | x_<t) for every t ≥ start. Default start=1 → shape (B, L-1), column j = token j+1.
-    PPO/eval call it with start=P (prompt width) to get the generated tokens only → (B, T)."""
-    logits, _ = causal_forward(model, input_ids, attention_mask, start)
-    return gather_logprobs(logits, input_ids[:, start:])
+    PPO/eval call it with start=P (prompt width) to get the generated tokens only → (B, T).
+
+    select: optional (B, L-1) mask aligned with the default output (e.g. summary_mask). The LM head is
+    then applied only at the selected positions and every other entry is 0. Same values and gradients,
+    but the (B, L, vocab) logits tensor — ~1.4 GB in fp32 for a 16 × 485 batch — is never built."""
+    if select is None:
+        logits, _ = causal_forward(model, input_ids, attention_mask, start)
+        return gather_logprobs(logits, input_ids[:, start:])
+    hidden = model.model(input_ids=input_ids, attention_mask=attention_mask,
+                         position_ids=position_ids_from_mask(attention_mask),
+                         use_cache=False).last_hidden_state[:, :-1]
+    sel = select.bool()
+    lp = gather_logprobs(model.lm_head(hidden[sel]), input_ids[:, 1:][sel])
+    return torch.zeros(sel.shape, dtype=lp.dtype, device=lp.device).masked_scatter(sel, lp)
 
 
 def entropy_from_logits(logits):
@@ -213,7 +226,7 @@ def masked_mean(x, mask):
 
 def sequence_logprob(model, ids, mask, prompt_lens):
     """log π(y | x) = Σ over summary tokens of log π(y_t | x, y_<t)."""
-    return (token_logprobs(model, ids, mask) * summary_mask(mask, prompt_lens)).sum(1)
+    return token_logprobs(model, ids, mask, select=summary_mask(mask, prompt_lens)).sum(1)
 
 
 # ----------------------------------------------------------------------------- generation

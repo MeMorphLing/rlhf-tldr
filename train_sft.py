@@ -33,10 +33,10 @@ def validation_loss(model, loader):
     total_nll, total_tokens = 0.0, 0.0
     for b in loader:
         ids, mask, plens = (b[k].to(DEVICE) for k in ("input_ids", "attention_mask", "prompt_lens"))
-        with autocast():
-            lp = token_logprobs(model, ids, mask)
         m = summary_mask(mask, plens)
-        total_nll += float(-(lp * m).sum())
+        with autocast():
+            lp = token_logprobs(model, ids, mask, select=m)
+        total_nll += float(-lp.sum())
         total_tokens += float(m.sum())
     model.train()
     return total_nll / total_tokens
@@ -49,9 +49,10 @@ def sft_backward(model, batch, scaler):
     n_tokens = summary_mask(mask, plens).sum()
     step_loss = 0.0
     for rows in torch.arange(ids.size(0), device=DEVICE).split(MICRO_BATCH):
+        m = summary_mask(mask[rows], plens[rows])
         with autocast():
-            lp = token_logprobs(model, ids[rows], mask[rows])
-        loss = -(lp * summary_mask(mask[rows], plens[rows])).sum() / n_tokens
+            lp = token_logprobs(model, ids[rows], mask[rows], select=m)
+        loss = -lp.sum() / n_tokens
         scaler.scale(loss).backward()
         step_loss += loss.item()
     return step_loss
