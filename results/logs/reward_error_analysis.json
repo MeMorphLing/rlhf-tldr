@@ -1,0 +1,247 @@
+{
+  "by_length": {
+    "chosen_longer": {
+      "n": 559,
+      "acc": 0.7513
+    },
+    "chosen_shorter": {
+      "n": 399,
+      "acc": 0.4336
+    },
+    "same_length": {
+      "n": 42,
+      "acc": 0.6905
+    },
+    "length_diff_le_2": {
+      "n": 204,
+      "acc": 0.598
+    },
+    "length_diff_gt_10": {
+      "n": 302,
+      "acc": 0.6325
+    },
+    "reward_vs_length_corr": 0.4712
+  },
+  "most_confident_mistakes": [
+    {
+      "prompt": "SUBREDDIT: r/AskReddit\nTITLE: My Mom is suddenly desperate for us to spare my judgey, homophobic grandparents from any emotional discomfort. Why does this make me so mad?\nPOST: For my entire life my maternal grandparents have been openly disappointed in everything their offspring, son-in-law and grandchildren have done. To boil our situation down to a few basic examples: My Mom married a blue-collar worker (my grandfather treats my Dad like he is a moron because he fixes cars for a living), my uncle is gay, I have lots of tattoos am an opinionated liberal and make my money working in retail while my brother quit college to make money hand over fist tending bar for a living. (We are all very happy with our choices BTW.)\n\nOver the years they have said countless cruel things such as telling my uncle that it would have been better if he had just kept his being gay to himself. However, as of late I've been having these huge arguments with my mother because she suddenly wants us all to stop sharing with them any details of our lives that they might find upsetting. (Her thought process being that they are getting older and our sharing said information would just cause them un-necessary discomfort.) SUDDENLY I HAVE TO WALK ON EGG SHELLS TO PROTECT THEIR DELICATE FEELINGS?!? \n\nReddit, am I wrong to be so pissed with her or should I just play along.?\nTL;DR:",
+      "chosen": "My hater grandparents are getting old; my Mom is now demanding that we be respectful of their age and not upset them.",
+      "rejected": "Over the years my family has been incredibly cruel towards my homophobic grandfather. Recently Mom wants us all to stop sharing details of our lives with them in order to spare them from emotional distress. I'm pissed.",
+      "r_chosen": -1.2402,
+      "r_rejected": 1.1748,
+      "margin": -2.415,
+      "correct": false,
+      "len_chosen": 25,
+      "len_rejected": 44
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: Coming up on 4 years, [25M] hates having to treat his SO [25F] extra special while not getting a lot in return. How can I get this point across without sounding \"unmanly\" or needy?\nPOST: I am lucky in a few ways: I know she loves me, isn't money-grubbing, and is good in bed, which many will say is plenty, but really those are just the minimums for being a good girlfriend, aren't they? Shouldn't your girlfriend love you regardless of money and make you feel good physically? So those don't count.\n\nShe is often impunctual while I am not. If she's tired she makes me take her home, as though me having fun doesn't count. If we do stay out she sulks. If it's chilly outside she won't dress up because \"she's cold,\" and if she does I have to hear about it the whole time, like she wants to remind me \"look how much effort this is for you.\" Meanwhile I'm just as cold and keeping quiet.\nTL;DR:",
+      "chosen": "I get treated special, but not special enough, and I'm tired of it. How can I make her see the light?",
+      "rejected": "My girlfriend treats me special but doesn't give me much in return. How can I explain to her that I need a level of intimacy and care without sounding needy or unmanly?",
+      "r_chosen": -1.7324,
+      "r_rejected": 0.5386,
+      "margin": -2.271,
+      "correct": false,
+      "len_chosen": 26,
+      "len_rejected": 36
+    },
+    {
+      "prompt": "SUBREDDIT: r/running\nTITLE: Fast way to regain stamina after a run?\nPOST: Hey /r/running, \n\nLast week my teacher told me the school was organizing a run. Everybody has to take part in a 20 minute run, which is part of an 8-hour relay with everyone from the school. Or if you would like to you can form a group of 6 people and run the full 8 hours with them. \n\nKind of jokingly I asked a friend of mine if he would like to do the full 8-hour run, he said yes, then someone else said she wanted to join our group, and now we're going to do it... We've decided it would be best to run in segments of 10 minutes so everyone will run eight times for ten minutes. \n\nHere's the thing though, my condition is not that good, at all. Last Thursday I ran 1,8km in 13 minutes and 28 seconds (8,03km/h) and today I ran 2,33km in 14:23 (9,72km/h). There are two things I would like to ask: \n\n-What would be a good strategy to improve my stamina so I'll be able to run for a longer time? \n\n-After I'm done with the first 10 minutes of running, how will I be able to regain stamina as quickly as possible (~50 minutes) to run the next 10 minutes, and then again.\n\nI'm 16y/o, the run will be in two weeks, do you think it's possible? I just keep telling myself to just do it :)\nTL;DR:",
+      "chosen": "I'm 16 and I want to run a full 8-hour relay with my friends. I'm not sure how to do it.",
+      "rejected": "I'm 16 and I'm going to run a relay with my friends. I want to know what strategy would be best to improve my stamina so I can run for longer.",
+      "r_chosen": -1.5137,
+      "r_rejected": 0.6245,
+      "margin": -2.1382,
+      "correct": false,
+      "len_chosen": 30,
+      "len_rejected": 37
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: How can I (M19) be more supportive of my girlfriend (F18) with depression and anxiety in a long distance relationship?\nPOST: I've been dating my girlfriend for about 9 months. She has pretty severe diagnosed depression and anxiety and I try to be there for her, calling her at least once a day and trying to see her at least once a month. \n\nThe main problem would have to be the fact that the college she goes to is a bit of a party school and seeing substance abuse gives her panic attacks. \n\nToday she moved dorms because her roommates were coming home drunk about 3 days out of the week and she couldn't take seeing it. Then tonight, she was talking to a friend she had met on the floor and this friend suggested they get drunk together. My girlfriend hastily said no and called me crying about 10 minutes later. \n\nI'm really solution oriented. I'm not good at dealing with this and it's been happening at least once a week since the semester started and it happened about twice a week last semester. When she tells me everyone she knows drinks or does drugs and that she hates everyone at her school, I start on instinct trying to solve her problem and recommend she goes to some churches to maybe meet some kids who do less drugs (we're both religious) or join a club at the school to meet new people. This usually just causes her to say, \"It's not MY church!\" or \"No, they'll all be on drugs too!\"\n\nI feel like this is really the wrong thing to do in response, but I don't know what to do otherwise. If I don't do that, then I just sit on the phone with her for an hour and tell her that I'm here for her. I don't feel like that helps either.\nTL;DR:",
+      "chosen": "How can I be there for my girlfriend in hard times without physically being there?",
+      "rejected": "Girlfriend has severe depression and anxiety. I try to be there for her, but she gets panic attacks from seeing the world of drugs and alcohol and leaves me. I don't know what I can do to be more supportive.",
+      "r_chosen": -1.7607,
+      "r_rejected": 0.303,
+      "margin": -2.0637,
+      "correct": false,
+      "len_chosen": 16,
+      "len_rejected": 46
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: I (30f) don't know where to go for support\nPOST: I'm a 30 year old female. Cut my parents out of my life and have a strained relationship with my brother and sister. \n\nI still talk to some of my aunts and uncles (mom's sisters and brothers). They don't push me to restore contact with my mom, they completely understand why I have to do what I have to do. \n\nOne of my family members had a baby die in utero 2 weeks before she was to be born. My immediate family has experience with this situation and i'd like to be there for my aunts and cousins at the funeral. \n\nI know my mom will be in attendance. I know I cannot face her alone, if she's cold, if she wants to talk, I'm not interested in any of it. \n\nMy live in bf (also 30) and i have been together for 10 months. He just started a new job that is admittedly cool, but he is absolutely obsessed with it. All conversations, all errands we run, are related to his job. Anything not related to the job he doesn't have bandwidth for. I've tried asking for support. Asking for hugs. Asking him to come to the funeral, and he says I need to deal with my family on my own. He doesn't have time to take off work (the funeral is Tuesday).\n\nI don't know where I can go for support or who to talk to. I have a few casual friends but no one who would let me vent like I feel I need. No one to come with me. Do i look internally for the support? \n\nAny advice would be great. Thanks reddit. (yep, it's a throwaway, no gw posts).\nTL;DR:",
+      "chosen": "I don't have good friends and I'm losing my mind. I've been depressed for most of my life and now I feel like shit and have no idea what to do.",
+      "rejected": "[30F] Cut family out of life and have strained relationship with siblings. I don't know where to go for support or who to talk to.",
+      "r_chosen": -1.792,
+      "r_rejected": 0.1683,
+      "margin": -1.9603,
+      "correct": false,
+      "len_chosen": 37,
+      "len_rejected": 32
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: [24/m] I am that controlling boyfriend.\nPOST: Actually, I was that controlling boyfriend. I noticed it, but thought that it was just a little phase I was going through because of stress at work, past relationship experience, blah blah blah; but really, it doesn't seem like that was it at all.\n\nIt was pretty bad. I'd make mountains out of molehills, volcanoes out of mountains, and could find any reason in my head to think that she was deceiving me. Part of my personality is very analytic and I have a good memory, which didn't help at all. She would tell me about her day or a story from her past, and if something didn't add up I would prod and say things like, \"yeah, but you also said...\" or \"but wait, didn't you do...\"\n\nIt was bad, all bad.\n\nThe worst part is that in my head, I was sure that I was really in love with her and wanted her to have freedom. But in the back of my head, I was worried that deception is everywhere and its never that easy. I would get so sure of myself, becoming condescending while I told her what she was *really* thinking or did. Then, she'd finally get the straight story through to me and I'd start bawling and apologizing. I swore up and down that it wouldn't happen again, but it always would. \n\nWell, the day after I called about enrolling in therapy, she dumped me. I deserved it 100% and I'm not here to ask how to get her back, because, frankly, it will never happen. But, I'm wondering what experience and insight I can find here to help me overcome this problem. I would like a healthy relationship in the future, but I am completely incapable of having one, as I am now.\nTL;DR:",
+      "chosen": "I was that controlling boyfriend and now I'm the guy who can't form normal relationships. What can I learn from here?",
+      "rejected": "was that controlling boyfriend, convinced she wasn't actually in love with me. dumps me, regretting it, wondering what insight and/or experiences can help me realize that controlling behaviour is unhealthy and learn how to change it.",
+      "r_chosen": -0.9932,
+      "r_rejected": 0.856,
+      "margin": -1.8491,
+      "correct": false,
+      "len_chosen": 26,
+      "len_rejected": 46
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: Is this relationship one sided, Or am I being shallow?\nPOST: Our car broke down in another state, and long story short we got jobs, found an apartment, started a new life here. \n\n  At first, I didn't have a job, and he paid for everything. Then, I got a job, worked my ass off and got promoted to full time. His contract was over and now he's looking for work again. I pay for everything now, with the deal that he will pay me back his half later. He said he would pay half of the rent out of his savings. \n  He's applied for about two hundred jobs, with no leads. He's been late giving me rent for the last two months, and he still owes me one hundred from last month. When I tried to explain that I was worried he didn't respect how important rent is, he quickly got upset, and stormed off into the night to find an ATM. Over the phone, i've begged him to come home- it's about 2am here- but he maintains that I just want his money, and \"everything is about money\" to me. For the record, it's not, I would pay all of the rent if he told me ahead of time he couldn't afford it. I'm worried about him walking for miles in a strange city so late. \n\n His ego has been wrecked lately, because of lack of work and unhappiness with his appearance. He dislikes how he looks because his hair has gotten shaggy, but he doesn't have money to cut it, and refuses my offer to pay for one. I think I may have hit a sore spot when I asked about the rent. He has been feeling inadequate lately, and this may have rubbed salt in his wounds. \n\n  How can I go about his better in the future? How do I know if i'm being taken advantage off?  I don't know anyone here, so thanks in advance for reading dear redditors.\nTL;DR:",
+      "chosen": "I don't know if he's just full of cock, or if I am being taken advantage of. Suggestions?",
+      "rejected": "I've been paying for everything, and he has been late in paying the rent for the past two months. He has no job, and is not respecting my request for rent. How do I go about this?",
+      "r_chosen": -2.0371,
+      "r_rejected": -0.2627,
+      "margin": -1.7744,
+      "correct": false,
+      "len_chosen": 24,
+      "len_rejected": 43
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: Me [21 F] with my friend [22 F], how do I tell her I think she's in an abusive relationship?\nPOST: Two years ago, my friend Trish went to a foreign country to study abroad. There, she met a guy, Frank, and they hit it off. \nNow, she's back in the foreign country for a year-long research program and is seeing the guy again. \n\nI think he's bad news.\n\nLast week my boyfriend sent Trish messages on facebook asking how she's enjoying the foreign country. He also asked her for help editing a short paper, since she's good at it (and he's not). She happily helped him, and everything was fine. \n\nExcept, that it wasn't. Two days later, Trish has deleted her facebook account and created a new one. She won't add any males as friends. \n\nMy boyfriend asked another mutual friend what was up, and the answer came back that Trish's boyfriend saw the facebook messages and became angry--so she deleted the account and made a new one with only girls as friends. \n\nMy boyfriend sent Frank a message explaining that they're only friends--and have been for a long time. He basically said \"chill out. Learn to trust her, but since you don't, you obviously have her fb messages and can read through them to see that I'm telling the truth.\" \nFrank replied saying that he was Trish's boyfriend, and that she shouldn't talk to any guy except him. \n\nHow can I explain this to her? The only way I can contact her is through the new facebook account--which I'm sure Frank monitors. I know Trish lives with Frank and his family in the foreign country--and I don't know that she has enough to move out. Beyond that, she seems happy with him. \n\nI just feel that it's extremely creepy and weird that Frank won't let her talk to her male friends back home.\nTL;DR:",
+      "chosen": "Friend is in an abusive relationship, and I want to tell her that I think she's in it. How do I do it?",
+      "rejected": "Friend is in a relationship, he is pissed that she has male friends--and has set up a new account. How do I tell her I think she's in an abusive relationship without scaring her away?",
+      "r_chosen": -1.6895,
+      "r_rejected": 0.0736,
+      "margin": -1.7631,
+      "correct": false,
+      "len_chosen": 27,
+      "len_rejected": 44
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: My girlfriend [21] are seemingly at wits end with me [21].    [9 months]\nPOST: Please don't mind the username, it was a throwaway for reasons obvious.\n\nI am 21, and I am largely an introvert. I am often thinking and I am truely caring for this girl I have dated for just about nine months. The problem is, I would anything for her, but all the little hints she drops, I am seemingly stupid and somehow let it fly past me. She lives by the absolute actions speak louder then words adage, but yet I just cannot manage to pick up the hints and move them to fruition. \n\nThis probably sounds repetitive, but after an hour conversation to how I have wronged her, I don't know what else I can say. I swear she deserves better, and I swear that I hold nothing but the highest regard for her and I would be devastated if I lose her, but just my mentality and my actions are very brief, calculated and very unemotional. I am also far from spontaneous. Hell, I cannot even choose dinner because I only care to get her what she wants. She always wishes I would take her out on a date or dinner, but it just never crosses my mind, not because of how much I care, but just because I am not any type of person who can actively make plans...\n\n Anyone else in this situation can give me a hand before I lose one of the best things I have had due to my stubborn and seemingly callous nature?\nTL;DR:",
+      "chosen": "I am far from an emotional person, and my girlfriend is in a position where she's seemingly lost her love for me, and I would like some advice/help.",
+      "rejected": "Girlfriend has seemingly given me short and unpracticed glances in regards to making plans, even though I am an introvert and cannot actively make plans. Help pls??",
+      "r_chosen": -1.584,
+      "r_rejected": 0.1377,
+      "margin": -1.7217,
+      "correct": false,
+      "len_chosen": 34,
+      "len_rejected": 36
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: I [F21] am considering proposing to him [M27].\nPOST: We've been together for 5 years. We've been apart the last 11 weeks because I had to leave for work. I'm coming home on Monday from this 11 week separation. I'm considering the idea of proposing to him when I get back. We are both very serious about our relationship and commitment to each other. \n\nWe've discussed marriage before, and agreed that it's something we want to do. The only thing that we haven't ever decided is when to do it. After being apart from him for so long, I feel like I've realized that I am so ready to make this commitment. He is absolutely the love of my life, and I want to make it permanent. \n\nSo what are your thoughts on me switching up the gender roles and proposing to him? How do I do it? Do I get a ring? Is this a terrible idea?\nTL;DR:",
+      "chosen": "I'm ready to take our five year relationship to the next level. Do I propose?",
+      "rejected": "I'm considering proposing to him after being apart for 11 weeks. We're serious about our relationship and commitment to each other. What do I do?",
+      "r_chosen": -1.6748,
+      "r_rejected": 0.0315,
+      "margin": -1.7063,
+      "correct": false,
+      "len_chosen": 18,
+      "len_rejected": 32
+    },
+    {
+      "prompt": "SUBREDDIT: r/offmychest\nTITLE: I am in love with someone I hardly know.\nPOST: I knew this person in high school and we were both interested in each other. It never worked out although I have had dreams about this person ever since (8 years of dreams). They aren't sexual dreams, but this is really, really wearing on me. In the dreams I am very happy to be with her and when I wake up I am devastated. The worst part is that I am currently in a relationship and know that this other girl is single. I went for lunch with her a little over a year ago to see how she was doing and we seemed to both enjoy ourselves. I have not pursued this relationship because I am in a fairly good relationship and feel delusional thinking this \"dream\" relationship could work out.\nTL;DR:",
+      "chosen": "I am in love with a girl I hardly know. I can't seem to get over her but am in a fairly good relationship.",
+      "rejected": "in a loving relationship but have dreams of being with someone else. Scared it will happen, but am not sure it can ever happen. Please help me see a way forward!",
+      "r_chosen": -1.3438,
+      "r_rejected": 0.3091,
+      "margin": -1.6528,
+      "correct": false,
+      "len_chosen": 27,
+      "len_rejected": 36
+    },
+    {
+      "prompt": "SUBREDDIT: r/running\nTITLE: I ran straight through.\nPOST: Today, I ran for almost 7km straight in 47 minutes.  Started my Zombies, Run! mission, and didn't stop running until I heard \"Mission Completed\".\n\nA little background - overweight and out of shape my entire adult life, I had joint problems and was diagnosed with asthma.  I moved across the US from everything I knew. \n\nThe day after my boyfriend's birthday (2 weeks after mine), I started working out.  Then I decided that I was going to try running.  I got a c25k app and barely made it through the 15 second run drills.  I finished the app and have been running almost daily, but seemed to have trouble with slowing to a walk way more often than I wanted.  \n\nI realized that I was paying too much attention to the distance I was running.  It'd tell myself 'after this km, you can walk.'  And it would seem like an eternity.  So I turned of the distance prompts in the game.  I chose a road for today that I've been on a few times, and has a park at the end in case I wanted to add some distance.  \n\nI'm still stunned that I did that - even more so that I just want to go back out tonight and do it all over again.\nTL;DR:",
+      "chosen": "I ran 7km today and I'm not out of breath.",
+      "rejected": "Started Zombies, Run! because I couldn't walk anymore.  Ran for almost 7km in a little over an hour.  Got confused about distance and distance prompts.  Got a little bit faster.",
+      "r_chosen": -1.7236,
+      "r_rejected": -0.1224,
+      "margin": -1.6013,
+      "correct": false,
+      "len_chosen": 14,
+      "len_rejected": 44
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: Has anyone ever been in a trial relationship? LDR [22F] and [22M]\nPOST: I'm the 22F and we've been 'together' for 5 months now. \n\nWe're in an LDR and we're around 3k miles apart. We've never met, but we will in one month and will be spending a month together for the first time. \n\nWe're in a trial phase right now, the plan is to wait until we meet before deciding to commit or not. My 'SO' is making a very big exception for me, when we originally met I learned that he wasn't interested in LDR's, thought they could never work and were a waste of time.\n\nHe is considering doing it for me and during or after summer its either going to work out or not. My question is.. Has anyone ever been in this type of situation before and how did it work out?\n\nOh, I think its worth noting that neither of us are looking for anyone else. We are committed to meeting each other, its that part that comes after which is a bit shaky.\nTL;DR:",
+      "chosen": "I'm in an LDR and have been for 5 months. Has anyone ever been in what we are or are they happy?",
+      "rejected": "I have a very good 'SO' who's planning on having an LDR for me, he's considering it and whether or not it will work out, how did it work out?",
+      "r_chosen": -1.9727,
+      "r_rejected": -0.3909,
+      "margin": -1.5818,
+      "correct": false,
+      "len_chosen": 27,
+      "len_rejected": 38
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationships\nTITLE: Has anyone ever been in a trial relationship? LDR [22F] and [22M]\nPOST: I'm the 22F and we've been 'together' for 5 months now. \n\nWe're in an LDR and we're around 3k miles apart. We've never met, but we will in one month and will be spending a month together for the first time. \n\nWe're in a trial phase right now, the plan is to wait until we meet before deciding to commit or not. My 'SO' is making a very big exception for me, when we originally met I learned that he wasn't interested in LDR's, thought they could never work and were a waste of time.\n\nHe is considering doing it for me and during or after summer its either going to work out or not. My question is.. Has anyone ever been in this type of situation before and how did it work out?\n\nOh, I think its worth noting that neither of us are looking for anyone else. We are committed to meeting each other, its that part that comes after which is a bit shaky.\nTL;DR:",
+      "chosen": "I'm in an LDR and have been for 5 months. Has anyone ever been in what we are or are they happy?",
+      "rejected": "I have a very good 'SO' who's planning on having an LDR for me, he's considering it and whether or not it will work out, how did it work out?",
+      "r_chosen": -1.9727,
+      "r_rejected": -0.3909,
+      "margin": -1.5818,
+      "correct": false,
+      "len_chosen": 27,
+      "len_rejected": 38
+    },
+    {
+      "prompt": "SUBREDDIT: r/dating_advice\nTITLE: Should I go for it even though my time is running out?\nPOST: So basically there's this girl in my class whom I'm attracted to and I think that there is a chance that we could end up being a couple, but there seems to be a few things that can prevent that from happening. \n\n1. I've heard rumors that she is in an arranged marriage (Her family is Middle Eastern; Haven't confirmed this from her, as she is private and most likely wouldn't want to say anything on the matter)\n\n2. We have a few months left before she goes back home for a couple months and then will be going off to college (I'm only a Junior), and I most likely won't see her ever again unless we end up going to the same college 2 years from now, which does seem likely as we plan on going to the same school. \n\n3. It seems that she's been hurt by a previous guy from what she has told me, and she's told me she hates most guys at our school. \nMy question is: Should I try to start a relationship with her? A lot of people might say hell yeah live life to the fullest and all, which I totally want to do. I just don't know if she feels the same and I'm also looking for a serious relationship, and a few months isn't enough time to do as such. Thanks for reading! :)\nTL;DR:",
+      "chosen": "people: I like a girl who might be in an arranged marriage and I only have a couple months left with her. Should I go for it? Also, I'm 16 and she's 17.",
+      "rejected": "have a chance we could end up being together but seems like there are some preventative measures that could prevent it from happening, do I go for it even though my time is running out?",
+      "r_chosen": -0.6802,
+      "r_rejected": 0.8809,
+      "margin": -1.561,
+      "correct": false,
+      "len_chosen": 44,
+      "len_rejected": 37
+    },
+    {
+      "prompt": "SUBREDDIT: r/AskReddit\nTITLE: Help finding an animated TV series for boyfriend's young cousin???\nPOST: So, my boyfriend has a 13 year old cousin. She is highly-functioning autistic, and loves to watch cartoons on her computer. She has been talking nonstop about this TV show for about 3 months now, and the best I've come up with is an episode list of what I think she's talking about. \n\nAll she says is that it's called \"Simba goes to the world cup\". I have found a TV show called Simba Junior goes to New York & the World Cup, which definitely looks like what I'm looking for, but I want to find it available to buy on DVD, or a website where she can go through episodes, and I figure reddit is better at this sort of thing than I am. Plus, it would totally make her day if I could find it for her, and her parent's day, too, because she's talked about it for 3 months or so now. \n\n[LINK](\nTL;DR:",
+      "chosen": "I need to find a cartoon for my autistic cousin, and I need to find it for her to watch.",
+      "rejected": "Looking for DVD/Website containing episodes of the Kid's show \"Simba Junior goes to New York and the World Cup\"",
+      "r_chosen": -1.7158,
+      "r_rejected": -0.1661,
+      "margin": -1.5497,
+      "correct": false,
+      "len_chosen": 22,
+      "len_rejected": 26
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: What do I do now?\nPOST: I (F 19) have been friends with a guy (Guy 20) for a while. After my ex and I broke up a few months ago, Me and this guy started hanging out in groups a lot. The past 3 weeks we've hung out everyday, with other people and by ourselves. I've slept over his place (No sex, messing around, or anything) Just cuddling. The other day, we messed around and he fingered me. He told me that he had feelings for me, but i said i wasn't sure if i felt the same way, and i wanted to feel things out, (we're moving over an hour away from each other in a month). I've been on vacation for a week. I miss seeing him a lot, and I really think I have feelings for him. Earlier, he was saying how much he missed me and couldn't wait for me to be back.  Over a 2 hour skype date last night, I told him that I liked him. Since we ended our conversation, he's been really distant, and we usually text all day, but today we barely talked. He said he wanted a nap around 5, and I haven't heard from him since. What do I do now?\nTL;DR:",
+      "chosen": "I hung out with this guy a lot, he said he likes me, I go on vacation, realize i miss him & like him back, I tell him, now he doesn't want to talk.",
+      "rejected": "Been friends with guy for a while. We started hanging out a lot. We've been fooling around, and I confessed my feelings to him. Now he's acting distant and ignoring me. What do I do now?",
+      "r_chosen": -0.7944,
+      "r_rejected": 0.73,
+      "margin": -1.5244,
+      "correct": false,
+      "len_chosen": 41,
+      "len_rejected": 46
+    },
+    {
+      "prompt": "SUBREDDIT: r/relationship_advice\nTITLE: [24/m] I am that controlling boyfriend.\nPOST: Actually, I was that controlling boyfriend. I noticed it, but thought that it was just a little phase I was going through because of stress at work, past relationship experience, blah blah blah; but really, it doesn't seem like that was it at all.\n\nIt was pretty bad. I'd make mountains out of molehills, volcanoes out of mountains, and could find any reason in my head to think that she was deceiving me. Part of my personality is very analytic and I have a good memory, which didn't help at all. She would tell me about her day or a story from her past, and if something didn't add up I would prod and say things like, \"yeah, but you also said...\" or \"but wait, didn't you do...\"\n\nIt was bad, all bad.\n\nThe worst part is that in my head, I was sure that I was really in love with her and wanted her to have freedom. But in the back of my head, I was worried that deception is everywhere and its never that easy. I would get so sure of myself, becoming condescending while I told her what she was *really* thinking or did. Then, she'd finally get the straight story through to me and I'd start bawling and apologizing. I swore up and down that it wouldn't happen again, but it always would. \n\nWell, the day after I called about enrolling in therapy, she dumped me. I deserved it 100% and I'm not here to ask how to get her back, because, frankly, it will never happen. But, I'm wondering what experience and insight I can find here to help me overcome this problem. I would like a healthy relationship in the future, but I am completely incapable of having one, as I am now.\nTL;DR:",
+      "chosen": "I was that controlling boyfriend and now I'm the guy who can't form normal relationships. What can I learn from here?",
+      "rejected": "was controlling boyfriend, terrible breakup, wondering what insight/experience can help me overcome my controlling tendencies? Would like healthy relationship in future.",
+      "r_chosen": -0.9932,
+      "r_rejected": 0.5093,
+      "margin": -1.5024,
+      "correct": false,
+      "len_chosen": 26,
+      "len_rejected": 29
+    },
+    {
+      "prompt": "SUBREDDIT: r/tifu\nTITLE: TIFU by getting my fingers dirty.\nPOST: Only moments ago, I opened the door to go inside my house from the backyard, where I'd just finished smoking a cig. The lights are all off.\n  \n As I walk past the kitchen table towards my room, I see my cat trying to get onto it from one of it's chairs. I scratch her once behind the ears, and gently start pushing her off. She quickly ducks beneath my hand, and keeps peering over the surface of the table at something. \n  \nI see what looks like a single piece of popcorn in the darkness. I pick it up, and what I grab is crunchy, but much softer than popcorn. I flip on a light and saw that I had just squashed the biggest moth i'd ever seen in person right between my thumb and forefinger. Not a huge fuck up, but still. Gross.\nTL;DR:",
+      "chosen": "Poor lighting led me to killing a huge moth with my bare fingers. Alternatively, TIFU by stealing a kill from my cat.",
+      "rejected": "Smoked a cig, walked through kitchen at night, cat thought it was popcorn. TIFU by crushing moth between thumb and forefinger.",
+      "r_chosen": -0.7661,
+      "r_rejected": 0.731,
+      "margin": -1.4971,
+      "correct": false,
+      "len_chosen": 27,
+      "len_rejected": 29
+    },
+    {
+      "prompt": "SUBREDDIT: r/AskReddit\nTITLE: Reddit, can you help me reunite two old friends?\nPOST: Through CouchSurfing.org, I have been planning a trip to Spain.  The woman that I am staying with in Cordoba is named Antonia and she is 56 years old.  She's asked me to help her find her old friend named Edward Carlson, who she did a lot of travelling with and has lost contact with.  Since she doesn't really know how to use computers, she asked me to help her, but I can't find anything on Facebook or Google, and I'm not really great at stalking people down.\n\nI think it would make her really happy if she could talk to her friend again.  This is the information she's given me:\n\nEdward Carlson, from New York City, used to live at 309, Avenue C and also at 17, Honey Lane, Miller Place in Long Island.  He served with the Peace Corps in the Tonga Islands in around 1973/1974.  He owned a sailboat named Erewhon, which my friend Antonia sailed on with him.  Antonia thinks that he is probably just over 60 years old now.\n\nPlease let me know if you can help me find Antonia's old friend!  She would be very happy and she's been trying to find him for a very long time :)  Thanks, Reddit!\nTL;DR:",
+      "chosen": "Two old friends who have lost contact with each other asked me to help find a lost friend, and I need help!",
+      "rejected": "planning trip to Spain, want to find old friend from Peace Corps days, can't find anything on Facebook or Google, need help finding him :)",
+      "r_chosen": -1.1943,
+      "r_rejected": 0.2952,
+      "margin": -1.4895,
+      "correct": false,
+      "len_chosen": 24,
+      "len_rejected": 29
+    }
+  ]
+}

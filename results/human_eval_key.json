@@ -1,0 +1,426 @@
+{
+  "rater1": [
+    {
+      "item": 1,
+      "post_index": 3,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 2,
+      "post_index": 12,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 3,
+      "post_index": 13,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 4,
+      "post_index": 15,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 5,
+      "post_index": 16,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 6,
+      "post_index": 44,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 7,
+      "post_index": 47,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 8,
+      "post_index": 52,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 9,
+      "post_index": 57,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 10,
+      "post_index": 71,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 11,
+      "post_index": 79,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 12,
+      "post_index": 81,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 13,
+      "post_index": 101,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 14,
+      "post_index": 110,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 15,
+      "post_index": 111,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 16,
+      "post_index": 112,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 17,
+      "post_index": 114,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 18,
+      "post_index": 119,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 19,
+      "post_index": 125,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 20,
+      "post_index": 140,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 21,
+      "post_index": 142,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 22,
+      "post_index": 172,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 23,
+      "post_index": 174,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 24,
+      "post_index": 194,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 25,
+      "post_index": 214,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 26,
+      "post_index": 216,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 27,
+      "post_index": 229,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 28,
+      "post_index": 258,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 29,
+      "post_index": 279,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 30,
+      "post_index": 287,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    }
+  ],
+  "rater2": [
+    {
+      "item": 1,
+      "post_index": 3,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 2,
+      "post_index": 12,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 3,
+      "post_index": 13,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 4,
+      "post_index": 15,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 5,
+      "post_index": 16,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 6,
+      "post_index": 44,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 7,
+      "post_index": 47,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 8,
+      "post_index": 52,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 9,
+      "post_index": 57,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 10,
+      "post_index": 71,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 11,
+      "post_index": 79,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 12,
+      "post_index": 81,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 13,
+      "post_index": 101,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 14,
+      "post_index": 110,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 15,
+      "post_index": 111,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 16,
+      "post_index": 112,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 17,
+      "post_index": 114,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 18,
+      "post_index": 119,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 19,
+      "post_index": 125,
+      "A": "sft",
+      "B": "ppo",
+      "C": "dpo"
+    },
+    {
+      "item": 20,
+      "post_index": 140,
+      "A": "ppo",
+      "B": "sft",
+      "C": "dpo"
+    },
+    {
+      "item": 21,
+      "post_index": 142,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 22,
+      "post_index": 172,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 23,
+      "post_index": 174,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 24,
+      "post_index": 194,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 25,
+      "post_index": 214,
+      "A": "sft",
+      "B": "dpo",
+      "C": "ppo"
+    },
+    {
+      "item": 26,
+      "post_index": 216,
+      "A": "ppo",
+      "B": "dpo",
+      "C": "sft"
+    },
+    {
+      "item": 27,
+      "post_index": 229,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 28,
+      "post_index": 258,
+      "A": "dpo",
+      "B": "sft",
+      "C": "ppo"
+    },
+    {
+      "item": 29,
+      "post_index": 279,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    },
+    {
+      "item": 30,
+      "post_index": 287,
+      "A": "dpo",
+      "B": "ppo",
+      "C": "sft"
+    }
+  ]
+}

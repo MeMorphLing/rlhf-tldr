@@ -1,0 +1,12 @@
+{
+  "steps": 2500,
+  "final_train_loss": 0.6183815819025039,
+  "val_implicit_acc": 0.6100000143051147,
+  "val_loss": 0.6562519073486328,
+  "n_val_pairs": 1000,
+  "models_in_gpu_memory": 2,
+  "train_minutes": 55.8,
+  "gpu": "Tesla T4",
+  "amp": true,
+  "smoke": false
+}

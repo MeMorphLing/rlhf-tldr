@@ -1,0 +1,34 @@
+{
+  "steps": 2500,
+  "final_train_loss": 0.6137646484375,
+  "val_pairwise_acc": 0.621999979019165,
+  "val_loss": 0.6564530730247498,
+  "n_val_pairs": 1000,
+  "accuracy_by_length": {
+    "chosen_longer": {
+      "n": 559,
+      "acc": 0.7513
+    },
+    "chosen_shorter": {
+      "n": 399,
+      "acc": 0.4336
+    },
+    "same_length": {
+      "n": 42,
+      "acc": 0.6905
+    },
+    "length_diff_le_2": {
+      "n": 204,
+      "acc": 0.598
+    },
+    "length_diff_gt_10": {
+      "n": 302,
+      "acc": 0.6325
+    },
+    "reward_vs_length_corr": 0.4712
+  },
+  "train_minutes": 38.6,
+  "gpu": "Tesla T4",
+  "amp": true,
+  "smoke": false
+}

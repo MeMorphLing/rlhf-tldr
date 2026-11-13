@@ -1,0 +1,9 @@
+{
+  "steps": 1250,
+  "final_train_loss": 2.3391207113265993,
+  "final_val_loss": 2.35066831149976,
+  "train_minutes": 18.3,
+  "gpu": "Tesla T4",
+  "amp": true,
+  "smoke": false
+}

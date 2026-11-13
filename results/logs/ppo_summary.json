@@ -1,0 +1,15 @@
+{
+  "iterations": 200,
+  "final_mean_score_last10": 0.19625368118286132,
+  "first_mean_score": -0.8316421508789062,
+  "final_kl_last10": 10.435804080963134,
+  "final_length_last10": 39.8625,
+  "first_length": 33.0625,
+  "final_total_loss_last10": -0.033923546527817636,
+  "models_in_gpu_memory": 3,
+  "peak_gpu_mem_gb": 11.09,
+  "train_minutes": 22.6,
+  "gpu": "Tesla T4",
+  "amp": true,
+  "smoke": false
+}

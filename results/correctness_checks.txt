@@ -1,0 +1,16 @@
+[summary_mask] row 0: ' Me and my sister were going to the park, put my sister in her carseat, left her there for thirty minutes, mom saved her from my ignorance, got grounded for a month.<|endoftext|>'
+[summary_mask] row 1: " I started dating my friends ex after he told me he was ok with it, but then he decided he wasn't and we're no longer friends. Am I in the wrong here and what can I do to make it right?<|endoftext|>"
+[summary_mask] row 2: " GF has been liking a bunch of images of a shirtless/almost naked guy she knows on instagram, I think it's disrespectful and want to know if I'm overreacting/how to talk to her.<|endoftext|>"
+[summary_mask] OK on 8 rows: masked tokens decode to summary + EOS
+[sft] trained 1250 steps; final val loss 2.3507
+[padding] reward model reads the final real token (summary EOS) for all 32 right-padded rows; index found via attention_mask
+[reward] val pairwise accuracy 0.6220 on 1000 pairs (chance = 0.5)
+[frozen] DPO reference πref: all 272 parameter tensors have requires_grad=False
+[dpo] first-step loss = 0.693147 (log 2 = 0.693147) because πθ = πref
+[dpo] val implicit reward accuracy 0.6100 on 1000 pairs
+[frozen] PPO reference πref: all 272 parameter tensors have requires_grad=False
+[frozen] PPO reward model rφ: all 274 parameter tensors have requires_grad=False
+[ppo] models in GPU memory: policy+value head (trainable), πref (frozen), rφ (frozen) = 3
+[ppo] iteration 1: mean KL to reference = 0.00e+00 (policy still equals SFT)
+[padding] PPO prompts are left-padded for generate(); reward model reads the final real token of every prompt+summary (found with attention_mask)
+[ppo] every iteration: first-epoch max |r_t(θ) − 1| = 0.00e+00, clip fraction = 0
