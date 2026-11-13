@@ -1,6 +1,6 @@
 # RLHF on Reddit TL;DR — one command per task. Run from the repo root.
 PY ?= python
-HF_USER ?= MeMorphLing
+HF_USER ?= latent-hassan
 
 .PHONY: setup starter task1 sft reward ppo dpo eval human-sheet human-score samples analysis tables figures app smoke upload download clean
 

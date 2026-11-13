@@ -14,7 +14,7 @@ Reddit post ──► Stage 1  SFT          imitate human TL;DRs                
 
 | | Link |
 |---|---|
-| Checkpoints | `MeMorphLing/smollm2-135m-tldr-{sft,reward,ppo,dpo}` on the Hugging Face Hub — _add links_ |
+| Checkpoints | [`latent-hassan/smollm2-135m-tldr-{sft,reward,ppo,dpo}`](https://huggingface.co/latent-hassan) on the Hugging Face Hub |
 | Blog | _Medium link_ |
 | LinkedIn | _post link_ |
 
